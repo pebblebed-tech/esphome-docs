@@ -305,6 +305,8 @@ whose ``id`` is  set to ``player_volume``:
                         format: "Error: Response status: %d, message %s"
                         args: [ 'response->status_code', 'body.c_str()' ]
 
+**Note:** to access data in the response ``capture_response: true`` must be set in the request.
+
 See Also
 --------
 
